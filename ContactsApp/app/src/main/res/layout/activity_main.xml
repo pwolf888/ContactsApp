@@ -4,6 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jonathanturnbull.contactsapp_jmturnbu.MainActivity">
+    tools:context="com.example.jonathanturnbull.contactsapp_jmturnbu.MainActivity"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp">
 
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/circle"
+        android:text="@string/J"
+        tools:layout_editor_absoluteY="29dp"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/circle"
+        android:text="@string/O"
+        tools:layout_editor_absoluteY="29dp"
+        tools:layout_editor_absoluteX="191dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:text="@string/N"
+        tools:layout_editor_absoluteY="158dp"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:text="@string/A"
+        tools:layout_editor_absoluteY="158dp"
+        tools:layout_editor_absoluteX="191dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:text="@string/T"
+        tools:layout_editor_absoluteY="290dp"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:text="@string/H"
+        tools:layout_editor_absoluteY="290dp"
+        tools:layout_editor_absoluteX="191dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="148dp"
+        android:layout_height="104dp"
+        android:onClick=""
+        android:text="contacts"
+        tools:layout_editor_absoluteY="472dp"
+        tools:layout_editor_absoluteX="106dp" />
 </android.support.constraint.ConstraintLayout>
