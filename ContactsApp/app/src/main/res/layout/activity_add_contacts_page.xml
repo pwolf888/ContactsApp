@@ -23,6 +23,10 @@
         app:layout_constraintTop_toTopOf="@+id/scrollView2"
         android:layout_marginRight="10dp" />
 
+    <!--https://stackoverflow.com/questions/4251465/how-to-make-a-linear-layout-scrollable
+        Author: Rodrigo Hernandes
+        -->
+
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
