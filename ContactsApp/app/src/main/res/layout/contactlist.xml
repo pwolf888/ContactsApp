@@ -3,6 +3,10 @@
     android:orientation="horizontal" android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
+    <!--http://www.androidinterview.com/android-custom-listview-with-image-and-text-using-arrayadapter/
+        Author:R.K.Kanojia (Android App Developer)
+        -->
+
     <ImageView
         android:id="@+id/icon"
         android:layout_width="50dp"

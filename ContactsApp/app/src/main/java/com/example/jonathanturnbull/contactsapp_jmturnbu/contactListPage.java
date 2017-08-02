@@ -28,6 +28,7 @@ public class contactListPage extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_list_page);
+
         this.setListAdapter(new ArrayAdapter<String>(
                 this, R.layout.contactlist,
                 R.id.Itemname,itemname));
