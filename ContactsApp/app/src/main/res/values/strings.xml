@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">ContactsApp_jmturnbu</string>
+    <string name="app_name">Bubble</string>
     <string name="J">J</string>
     <string name="O">O</string>
     <string name="N">N</string>
     <string name="A">A</string>
     <string name="T">T</string>
     <string name="H">H</string>
+
 
     <string name="main_activity">Home</string>
     <string name="ContactList">Contact List</string>
