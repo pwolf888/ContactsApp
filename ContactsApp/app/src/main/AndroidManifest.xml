@@ -16,9 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".contactsPage" />
-        <activity android:name=".addContactsPage" />
-        <activity android:name=".contactListPage"></activity>
+            <activity android:name=".contactsPage"
+                android:label="@string/SingleContact"/>
+            <activity android:name=".addContactsPage"
+                android:label="@string/AddContact"/>
+            <activity android:name=".contactListPage"
+                android:label="@string/ContactList"/>
+
     </application>
 
 </manifest>

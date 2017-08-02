@@ -6,4 +6,10 @@
     <string name="A">A</string>
     <string name="T">T</string>
     <string name="H">H</string>
+
+    <string name="main_activity">Home</string>
+    <string name="ContactList">Contact List</string>
+    <string name="AddContact">Add Contact</string>
+    <string name="SingleContact">Contact</string>
+
 </resources>
