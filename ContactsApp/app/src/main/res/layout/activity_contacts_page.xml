@@ -17,6 +17,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginTop="27dp"
         android:text="X"
+        android:background="@color/SecondaryPurple"
         android:onClick="main_activity"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"

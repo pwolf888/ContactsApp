@@ -9,106 +9,74 @@
     tools:layout_editor_absoluteX="0dp"
     android:background="@color/PrimaryPurple">
 
+
     <Button
-        android:id="@+id/J"
+        android:id="@+id/Dave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:background="@drawable/circle"
-        android:text="@string/J"
+        android:background="@drawable/dave"
+        android:text="@string/Dave"
         android:onClick="SingleContact"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="29dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="50dp" />
-
-    <Button
-        android:id="@+id/O"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/circle"
-        android:text="@string/O"
-        tools:layout_constraintTop_creator="1"
+        android:paddingTop="80dp"
+        android:textColor="@color/PrimaryPurple"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginEnd="49dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/Suzan"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="29dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="35dp" />
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
-        android:id="@+id/N"
+        android:id="@+id/Suzan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/circle"
-        android:text="@string/N"
+        android:background="@drawable/suzan"
+        android:text="@string/Suzan"
+        android:height="120dp"
+        android:width="120dp"
+        android:paddingTop="80dp"
+        android:textColor="@color/PrimaryPurple"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="149dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <Button
+        android:id="@+id/Lin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lin"
+        android:text="@string/Lin"
+        android:paddingTop="80dp"
+        android:textColor="@color/PrimaryPurple"
+        android:layout_marginEnd="16dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/J"
-        android:layout_marginTop="9dp"
-        app:layout_constraintTop_toBottomOf="@+id/J"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/J" />
-
-    <Button
-        android:id="@+id/A"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/circle"
-        android:text="@string/A"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/O"
-        android:layout_marginTop="7dp"
-        app:layout_constraintTop_toBottomOf="@+id/O"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/O"
-        app:layout_constraintHorizontal_bias="0.0" />
-
-    <Button
-        android:id="@+id/T"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
-        android:background="@drawable/circle"
-        android:text="@string/T"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toLeftOf="@+id/N"
-        app:layout_constraintRight_toRightOf="@+id/N"
-        app:layout_constraintTop_toBottomOf="@+id/N"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1" />
-
-    <Button
-        android:id="@+id/H"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/circle"
-        android:text="@string/H"
-        app:layout_constraintLeft_toLeftOf="@+id/A"
-        app:layout_constraintRight_toRightOf="@+id/A"
-        app:layout_constraintTop_toBottomOf="@+id/A"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/Dave"
+        android:layout_marginRight="16dp" />
 
     <Button
         android:id="@+id/contactsBtn"
-        android:layout_width="148dp"
-        android:layout_height="104dp"
-        android:layout_marginBottom="16dp"
-        android:text="contacts"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:background="@drawable/circle"
         android:onClick="ContactsList"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="contacts"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/Lin"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

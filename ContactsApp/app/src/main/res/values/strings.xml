@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">Bubble</string>
-    <string name="J">J</string>
-    <string name="O">O</string>
-    <string name="N">N</string>
-    <string name="A">A</string>
-    <string name="T">T</string>
-    <string name="H">H</string>
-
+    <string name="Suzan">Suzan</string>
+    <string name="Dave">Dave</string>
+    <string name="Lin">Lin</string>
+    <string name="James">James</string>
+    <string name="Clarese">Clarese</string>
 
     <string name="main_activity">Home</string>
     <string name="ContactList">Contact List</string>
