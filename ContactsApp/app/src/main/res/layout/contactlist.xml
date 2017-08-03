@@ -27,6 +27,7 @@
         android:paddingTop="5dp"
         android:textColor="#fff"
         android:layout_marginTop="60dp"
+        android:paddingLeft="60dp"
         android:onClick="SingleContact"/>
 
 </LinearLayout>
