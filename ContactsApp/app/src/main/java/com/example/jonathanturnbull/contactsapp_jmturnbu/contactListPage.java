@@ -7,21 +7,32 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 
+/*http://www.androidinterview.com/android-custom-listview-with-image-and-text-using-arrayadapter/
+        Author:R.K.Kanojia (Android App Developer)
+        -->*/
 public class contactListPage extends ListActivity {
 
     String[] itemname ={
-            "Safari",
-            "Camera",
-            "Global",
-            "FireFox",
-            "UC Browser",
-            "Android Folder",
-            "VLC Player",
-            "Cold War",
-            "Jeff",
-            "Dingo Jones",
-            "Captain Crunch",
-            "Jora"
+            "James",
+            "Dave",
+            "Lin",
+            "Suzan",
+            "Clarese",
+            "James",
+            "Dave",
+            "Lin",
+            "Suzan",
+            "Clarese"
+
+    };
+
+    Integer[] imagename ={
+            R.drawable.james,
+            R.drawable.dave,
+            R.drawable.lin,
+            R.drawable.suzan,
+            R.drawable.clarese
+
     };
 
     @Override
@@ -32,7 +43,11 @@ public class contactListPage extends ListActivity {
         this.setListAdapter(new ArrayAdapter<String>(
                 this, R.layout.contactlist,
                 R.id.Itemname,itemname));
+
     }
+
+
+/* Ends here */
 
     public void AddContact(View view) {
         Intent intent = new Intent(this, addContactsPage.class);
@@ -45,5 +60,8 @@ public class contactListPage extends ListActivity {
     }
 
 
-
+    public void SingleContact(View view) {
+        Intent intent = new Intent(this, contactsPage.class);
+        startActivity(intent);
+    }
 }
