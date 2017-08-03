@@ -22,6 +22,6 @@ public class contactsPage extends AppCompatActivity {
 
     // A button to set the favourites button colour
     public void SingleContact(View view) {
-        view.setBackgroundResource(R.color.colorPrimary);
+        view.setBackgroundResource(R.color.AccentPurple);
     }
 }
