@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:textSize="40dp"
         android:paddingTop="5dp"
+        android:textColor="#fff"
         android:layout_marginTop="60dp"
         android:onClick="SingleContact"/>
 
