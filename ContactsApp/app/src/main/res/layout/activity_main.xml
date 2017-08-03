@@ -12,8 +12,8 @@
 
     <Button
         android:id="@+id/Dave"
-        android:layout_width="117dp"
-        android:layout_height="117dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/dave"
         android:text="@string/Dave"
         android:onClick="SingleContact"
@@ -24,9 +24,8 @@
         app:layout_constraintBottom_toTopOf="@+id/Clarese"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="0dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.502" />
+        android:layout_marginBottom="10dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/Clarese"

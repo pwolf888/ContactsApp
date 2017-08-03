@@ -144,6 +144,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Facebook"
+            android:background="@color/facebook"
+            android:textColor="#fff"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="479dp" />
 
@@ -153,6 +155,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Instagram"
+            android:background="@color/instagram"
+            android:textColor="#fff"
             tools:layout_editor_absoluteX="128dp"
             tools:layout_editor_absoluteY="479dp" />
 
@@ -162,6 +166,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Twitter"
+            android:background="@color/twitter"
+            android:textColor="#fff"
             tools:layout_editor_absoluteX="256dp"
             tools:layout_editor_absoluteY="479dp" />
 

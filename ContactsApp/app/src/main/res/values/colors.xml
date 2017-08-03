@@ -5,4 +5,9 @@
     <color name="colorAccent">#FF4081</color>
     <color name="PrimaryPurple">#875F9A</color>
     <color name="SecondaryPurple">#BE90D4</color>
+
+    <!--Social media colors-->
+    <color name="facebook">#3b5998</color>
+    <color name="instagram">#ffdc7d</color>
+    <color name="twitter">#00b6f1</color>
 </resources>
